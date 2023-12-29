@@ -10,34 +10,22 @@ import Contactform from "@components/contactform.astro";
 changeLanguage("en");
 
 let contacts = [
-    {
-        title: "Marketing",
-        email: "test@yourcompany.com",
-        phone: "+1 (555) 555-5555",
-    },
-    {
-        title: "Human Resources",
-        email: "test@yourcompany.com",
-        phone: "+1 (555) 555-5555",
-    },
-    {
-        title: "Finance",
-        email: "test@yourcompany.com",
-        phone: "+1 (555) 555-5555",
-    },
-    {
-        title: "Research and Development",
-        email: "test@yourcompany.com",
-        phone: "+1 (555) 555-5555",
-    },
+	{
+		title: "Contact Us",
+		email: "hello@matrixleap.ai",
+	},
+	{
+		title: "Join Us",
+		email: "join@matrixleap.ai",
+	},
 ];
 ---
 
 <Layout title="Contact">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Contact</Fragment>
-			<Fragment slot="desc">Get in Touch.</Fragment>
+			<Fragment slot="title">Get in Touch</Fragment>
+			<Fragment slot="desc">Connect With Us</Fragment>
 		</Sectionhead>
 
 		<div class="py-24 sm:py-32">
@@ -45,8 +33,8 @@ let contacts = [
 				<div class="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
 					<div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
 						<div>
-							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Departments</h2>
-							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">Reach Out to Our Dedicated Teams.</p>
+							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Reach Out</h2>
+							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">We are here to help</p>
 						</div>
 						<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
 							{
