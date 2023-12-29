@@ -14,14 +14,14 @@ public_folder: "/images"
 
 i18n:
     structure: "multiple_folders"
-    locales: ["en", "it"]
+    locales: ["en", "cn"]
     default_locale: "en"
 
 collections:
     - name: "posts"
       i18n: true
-      label: "Blog Posts"
-      folder: "src/content/blog"
+      label: "Our Work"
+      folder: "src/content/ourwork"
       create: true
       delete: true
       fields:

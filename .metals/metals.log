@@ -1,0 +1,5 @@
+2023.12.28 21:37:18 INFO  Started: Metals version 1.2.0 in folders '/Users/ryan/Documents/GitHub/matrixleap' for client Visual Studio Code 1.85.1.[0m
+2023.12.28 21:37:19 WARN  Build server is not auto-connectable.[0m
+2023.12.28 21:37:19 WARN  no build tool detected in workspace '/Users/ryan/Documents/GitHub/matrixleap'. The most common cause for this problem is that the editor was opened in the wrong working directory, for example if you use sbt then the workspace directory should contain build.sbt. [0m
+Dec. 28, 2023 9:43:49 P.M. org.eclipse.lsp4j.jsonrpc.services.GenericEndpoint notify
+INFO: Unsupported notification method: $/setTrace

@@ -12,13 +12,11 @@ Astros is a template made with [Astro](https://astro.build), [Tailwind](https://
 
 This project is strongly inspired by [Astroship](https://github.com/surjithctly/astroship), [Flowbite](https://flowbite.com/blocks/) and [Tailwind UI](https://tailwindui.com/components) components, make sure to check them out as well!
 
-
 [![Deploy to Cloudflare Workers](https://deploy.workers.cloudflare.com/button)](https://deploy.workers.cloudflare.com/?url=https://github.com/zankhq/astros)
 
 [![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/zankhq/astros)
 
 [![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https://github.com/zankhq/astros)
-
 
 ### [🧪 Site preview →](https://astros.zank.studio)
 
@@ -38,8 +36,8 @@ This project is strongly inspired by [Astroship](https://github.com/surjithctly/
 
 On the folder run
 
-1. `npm i`  <small>(or `yarn` or `pnpm i`)</small>
-2. `npm run dev`  <small>(or `yarn dev` or `pnpm dev`)</small>
+1. `npm i` <small>(or `yarn` or `pnpm i`)</small>
+2. `npm run dev` <small>(or `yarn dev` or `pnpm dev`)</small>
 
 (if it's not working report an [issue](https://github.com/zankhq/astros/issues))
 
@@ -72,17 +70,17 @@ You can check the deploy documentation at https://docs.astro.build/en/guides/dep
 
 ## ✅ Features
 
-- [x] Localization (with astro-i18next)
-- [x] Light/Dark mode (provided by tailwind)
-- [x] Discussion on articles (thanks to giscus)
-- [x] Blog
-- [x] CMS for editing blog post (thanks to Sveltia CMS)
-- [x] PWA (thanks to vite-pwa)
-- [ ] AI to generate article posts
+-   [x] Localization (with astro-i18next)
+-   [x] Light/Dark mode (provided by tailwind)
+-   [x] Discussion on articles (thanks to giscus)
+-   [x] ourwork
+-   [x] CMS for editing ourwork post (thanks to Sveltia CMS)
+-   [x] PWA (thanks to vite-pwa)
+-   [ ] AI to generate article posts
 
 ## ✍️ Admin dashboard
 
-You can access the admin dashboard for editing blog post at `/admin` (https://astros.zank.studio/admin)
+You can access the admin dashboard for editing ourwork post at `/admin` (https://astros.zank.studio/admin)
 
 For more information follow Sveltia CMS documentation at [https://github.com/sveltia/sveltia-cms](https://github.com/sveltia/sveltia-cms)
 
@@ -111,7 +109,7 @@ Astros depends on the following packages:
 
 ## Known issues
 
-- Localization is not detected automatically
+-   Localization is not detected automatically
 
 ## FAQ
 
@@ -152,7 +150,7 @@ Astros depends on the following packages:
 <details>
   <summary>I don't need client routing, how can I remove it?</summary>
 <br/>
-  From astro 2.9 you can opt-in for client routing (https://astro.build/blog/astro-290) by activating the experimental flag viewTransitions <br/>
+  From astro 2.9 you can opt-in for client routing (https://astro.build/ourwork/astro-290) by activating the experimental flag viewTransitions <br/>
   You can remove client routing by removing <code>viewTransitions: true</code> from <code>astro.config.mjs</code> And the <code>ViewTransitions</code> component from Layout.astro
 </details>
 <br/>
@@ -178,14 +176,12 @@ Astros depends on the following packages:
 </details>
 <br/>
 
-
 <details>
   <summary>How can I configure the Sveltia CMS authentication with cloudflare?</summary>
 <br/>
   To configure Sveltia CMS with cloudflare follow this guide <a href="https://github.com/sveltia/sveltia-cms" target="_blank">https://github.com/sveltia/sveltia-cms</a>
 </details>
 <br/>
-
 
 <details>
   <summary>How can I change the localization languages?</summary>
@@ -218,6 +214,7 @@ To do so you have to go into each module and run
 ```
 npm link
 ```
+
 </details>
 <br/>
 

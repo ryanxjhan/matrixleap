@@ -3,14 +3,14 @@ import i18next, { changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import Posts from "@components/blog/posts.astro";
+import Posts from "@components/ourwork/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pagination from "@components/blog/pagination.astro";
+import Pagination from "@components/ourwork/pagination.astro";
 
-changeLanguage("it");
+changeLanguage("en");
 
-export async function getStaticPaths({ paginate }) {changeLanguage('it')
-    var posts = await getCollection("blog", ({ data }) => {
+export async function getStaticPaths({ paginate }) {changeLanguage('en')
+    var posts = await getCollection("ourwork", ({ data }) => {
         return !data.draft;
     });
     // Preprocess the posts to split the slugs and get the languages
@@ -33,18 +33,18 @@ export async function getStaticPaths({ paginate }) {changeLanguage('it')
         return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
     });
     return paginate(localizedPosts, {
-        params: { blog: "blog" || undefined },
+        params: { ourwork: "ourwork" || undefined },
         pageSize: 4,
     });
 }
 const { page } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="ourwork">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Blog</Fragment>
-			<Fragment slot="desc">Discover Industry Insights, Company News, and Expert Opinions.</Fragment>
+			<Fragment slot="title">Our Work</Fragment>
+			<Fragment slot="desc">Discover some of our past projects.</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
 		<Pagination class="mt-20" prevUrl={page.url.prev} nextUrl={page.url.next} />

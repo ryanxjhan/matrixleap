@@ -1,9 +1,9 @@
 import fsp from "fs/promises";
 import path from "path";
 
-const locales = ["it"];
+const locales = ["cn"];
 const defaultLocale = "en";
-const paths = ["blog/[...page]", "blog/category/[category]", "blog/tag/[tag]", "blog/[slug]"];
+const paths = ["ourwork/[...page]", "ourwork/category/[category]", "ourwork/tag/[tag]", "ourwork/[slug]"];
 
 async function main() {
 	const __dirname = path.resolve();

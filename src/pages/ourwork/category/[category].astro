@@ -3,43 +3,43 @@ import i18next, { changeLanguage } from "i18next";
 import { getCollection } from "astro:content";
 import Layout from "@layouts/Layout.astro";
 import Container from "@components/container.astro";
-import Posts from "@components/blog/posts.astro";
+import Posts from "@components/ourwork/posts.astro";
 import Sectionhead from "@components/sectionhead.astro";
-import Pagination from "@components/blog/pagination.astro";
+import Pagination from "@components/ourwork/pagination.astro";
 
-changeLanguage("it");
+changeLanguage("en");
 
-export async function getStaticPaths() {changeLanguage('it')
-    const posts = await getCollection("blog", ({ data }) => {
+export async function getStaticPaths() {changeLanguage('en')
+    const posts = await getCollection("ourwork", ({ data }) => {
         return !data.draft && data.publishDate < new Date();
     });
     const localizedPosts = posts.filter((page) => {
         const [lang, ...slug] = page.slug.split("/");
         return lang === i18next.language;
     });
-    const tags = new Set();
+    const categories = new Set();
     localizedPosts.map((post) => {
-        Array.isArray(post.data.tags) && post.data.tags.map((tag) => tags.add(tag.toLowerCase()));
+        typeof post.data.category === "string" && categories.add(post.data.category.toLowerCase());
     });
-    return Array.from(tags).map((tag) => {
+    return Array.from(categories).map((category) => {
         return {
-            params: { tag: tag },
+            params: { category: category },
             props: {
-                posts: localizedPosts.filter((post) => Array.isArray(post.data.tags) && post.data.tags.find((elem) => elem.toLowerCase() === tag)),
-                tag: tag,
+                posts: localizedPosts.filter((post) => typeof post.data.category === "string"),
+                category: category,
                 lang: i18next.language,
             },
         };
     });
 }
 // Get the post directly from the prop on render
-const { posts, tag, lang } = Astro.props;
+const { posts, category, lang } = Astro.props;
 ---
 
-<Layout title="Blog">
+<Layout title="ourwork">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">#{tag}</Fragment>
+			<Fragment slot="title">#{category}</Fragment>
 			<Fragment slot="desc">We write about building startups and thoughts going on our mind.</Fragment>
 		</Sectionhead>
 		<Posts posts={posts} />

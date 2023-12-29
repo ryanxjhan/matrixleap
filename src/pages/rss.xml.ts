@@ -2,7 +2,7 @@ import { getCollection } from "astro:content";
 import rss from "@astrojs/rss";
 
 export const get = async () => {
-	const posts = await getCollection("blog", ({ data }) => {
+	const posts = await getCollection("ourwork", ({ data }) => {
 		return !data.draft && data.publishDate < new Date();
 	});
 
@@ -12,8 +12,8 @@ export const get = async () => {
 	});
 
 	return rss({
-		title: `Astros`,
-		description: "Astros - Starter Template for Astro with Tailwind CSS",
+		title: `Matrix Leap`,
+		description: "Matrix Leap - Accelerated Deep Tech Solutions on Autopilot",
 		site: import.meta.env.SITE,
 
 		items: posts.map((post) => ({

@@ -1,19 +1,19 @@
 {
 	"hero": {
-		"title": "Sviluppo web potenziato!",
-		"subtitle": "Liberare il Potere del Web: Combina Astro, Tailwind CSS e Alpine.js per Semplificare il Tuo Processo di Sviluppo Web.",
+		"title": "深度技术解决方案",
+		"subtitle": "与全球前1%的人才团队合作，打造你的独有创新",
 		"globe_title": "Crea Siti Web Sorprendenti ad Alte Prestazioni con Facilità e Velocità.",
-		"main_button_text": "Scarica su github",
-		"secondary_button_text": "Vai a versione animata"
+		"main_button_text": "预约会议",
+		"secondary_button_text": "获取报价"
 	},
 	"hero_animated": {
 		"secondary_button_text": "Vai a versione base"
 	},
 	"header": {
 		"features": "Funzionalità",
-		"pricing": "Prezzi",
-		"blog": "Blog",
-		"contact": "Contatti",
+		"pricing": "价格",
+		"work": "历史案例",
+		"contact": "联系我们",
 		"primary_button_text": "Scarica",
 		"secondary_button_text": "Login"
 	},
@@ -30,7 +30,7 @@
 		"giscus": "Un sistema di commenti alimentato da GitHub Discussions. Lascia che i visitatori lascino commenti e reazioni sul tuo sito web tramite GitHub!",
 		"decapcms": "Gestione dei contenuti open source per il tuo flusso di lavoro Git",
 		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Usa l'inteligenza artificiale per generare gli articoli del tuo blog"
+		"articlegenerator": "Usa l'inteligenza artificiale per generare gli articoli del tuo ourwork"
 	},
 	"faq": {
 		"title": "Domande frequenti"
@@ -43,7 +43,7 @@
 		"privacy": "Ci importa della tua privacy. Leggi la nostra",
 		"privacy_link": "Privacy Policy."
 	},
-	"blog": {
+	"ourwork": {
 		"prev": "Precedente",
 		"next": "Successiva"
 	}

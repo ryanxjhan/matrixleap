@@ -28,8 +28,8 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Astros - Starter Template for Astro with Tailwind CSS",
-				short_name: "Astros",
+				name: "Matrix Leap - Accelerated Deep Tech Solutions on Autopilot",
+				short_name: "Matrix Leap",
 				theme_color: "#ffffff",
 				icons: [
 					{
@@ -70,5 +70,5 @@ export default defineConfig({
 	},
 	experimental: {
 		contentCollectionCache: true,
-	}
+	},
 });

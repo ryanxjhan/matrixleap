@@ -7,57 +7,57 @@ import { t } from "i18next";
 
 const features = [
 	{
-		title: "Astro",
+		title: "Quick Prototyping",
 		description: "features.astro",
-		icon: "bx:bxs-briefcase",
+		icon: "fluent:window-dev-tools-16-filled",
 		url: "https://astro.build/",
 	},
 	{
-		title: "Alpine",
+		title: "Full Stack Development",
 		description: "features.alpine",
 		icon: "bx:bxs-window-alt",
 		url: "https://alpinejs.dev/",
 	},
 	{
-		title: "Tailwind",
+		title: "Deep Tech Integrations",
 		description: "features.tailwind",
-		icon: "bx:bxs-data",
+		icon: "mdi:brain-freeze",
 		url: "https://tailwindcss.com/",
 	},
 	{
-		title: "Localization",
+		title: "Feature Iterations",
 		description: "features.localization",
-		icon: "bx:bxs-bot",
+		icon: "ri:space-ship-fill",
 		url: "https://github.com/yassinedoghri/astro-i18next",
 	},
 	{
-		title: "Light/Dark Mode",
+		title: "Growth Automation",
 		description: "features.light_dark_mode",
-		icon: "bx:bxs-file-find",
+		icon: "fluent:arrow-growth-24-filled",
 		url: "https://tailwindcss.com/docs/dark-mode",
 	},
 	{
-		title: "Giscus",
+		title: "Consulting Services",
 		description: "features.giscus",
-		icon: "bx:bxs-user",
+		icon: "fluent:handshake-24-filled",
 		url: "https://giscus.app/",
 	},
 	{
-		title: "Decap CMS",
+		title: "SEO Optimization",
 		description: "features.decapcms",
-		icon: "bx:bxs-user",
+		icon: "ic:baseline-ads-click",
 		url: "https://decapcms.org/",
 	},
 	{
-		title: "RSS feed",
+		title: "Paid Advertising",
 		description: "features.rss",
-		icon: "bx:bxs-user",
+		icon: "mdi:google-ads",
 		url: "/rss.xml",
 	},
 	{
-		title: "Article generator (soon)",
+		title: "Robotics Automation",
 		description: "features.articlegenerator",
-		icon: "bx:bxs-user",
+		icon: "bx:bxs-bot",
 		url: "#",
 	},
 ];
@@ -84,6 +84,7 @@ const features = [
 						</dt>
 						<dd class="mt-4 flex flex-auto flex-col text-base leading-7 text-gray-900 dark:text-gray-100">
 							<p class="flex-auto">{t(item.description)}</p>
+							<!--- 
 							<p class="mt-6">
 								<Link href={item.url} style="muted" size="xs" class="leading-6 text-left text-black dark:text-white">
 									{t("features.learn_more")}{" "}
@@ -92,6 +93,7 @@ const features = [
 									</span>
 								</Link>
 							</p>
+							--->
 						</dd>
 					</div>
 				))

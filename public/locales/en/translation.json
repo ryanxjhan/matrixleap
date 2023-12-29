@@ -1,36 +1,36 @@
 {
 	"hero": {
-		"title": "Supercharged web development!",
-		"subtitle": "Unleashing the Power of the Web: Combines Astro, Tailwind CSS and Alpine.js to Streamline Your Web Development Process.",
-		"globe_title": "Craft Stunning, High-Performance Websites with Ease and Speed",
-		"main_button_text": "Download on github",
-		"secondary_button_text": "Go to animated version"
+		"title": "Accelerated Deep Tech Solutions on Autopilot",
+		"subtitle": "Work with top 1% power teams to build your next innovation",
+		"globe_title": "Trusted by Entrepreneurs Globally: We Transform Ambitious Ideas into Profitable Busisnesses",
+		"main_button_text": "Book a Meeting",
+		"secondary_button_text": "Get a Quote"
 	},
 	"hero_animated": {
-		"secondary_button_text": "Go to base version"
+		"secondary_button_text": "Get a Quote"
 	},
 	"header": {
 		"features": "Features",
 		"pricing": "Pricing",
-		"blog": "Blog",
+		"work": "Our Work",
 		"contact": "Contacts",
-		"primary_button_text": "Download",
-		"secondary_button_text": "Login"
+		"primary_button_text": "Book",
+		"secondary_button_text": "Quote"
 	},
 	"features": {
 		"learn_more": "Learn more",
-		"title": "Features",
-		"subtitle": "All the tools you need",
-		"description": "Astro is a high-performance static site builder that seamlessly integrates with Tailwind CSS and Alpine.js. It allows you to build websites with ease and speed, without sacrificing on performance.",
-		"astro": "Astro is the all-in-one web framework designed for speed. Pull your content from anywhere and deploy everywhere, all powered by your favorite UI components and libraries.",
-		"alpine": "Alpine is a rugged, minimal tool for composing behavior directly in your markup. Think of it like jQuery for the modern web. Plop in a script tag and get going.",
-		"tailwind": "A utility-first CSS framework packed with classes that can be composed to build any design, directly in your markup.",
-		"localization": "An astro integration of i18next + some utility components to help you translate your astro websites!",
-		"light_dark_mode": "Light/Dark mode based on tailwind classes",
-		"giscus": "A comments system powered by GitHub Discussions. Let visitors leave comments and reactions on your website via GitHub!",
-		"decapcms": "Open source content management for your Git workflow",
-		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Use AI to generate your articles posts"
+		"title": "Services",
+		"subtitle": "Everything you need to go from 0 to 100",
+		"description": "Matrix Leap provides a full range of services to help you build your next big thing. We are an army of top 1% talent with a proven track record of building successful products. We are your one-stop-shop for all your product development needs.",
+		"astro": "Get your MVP ready in weeks, reducing your time-to-market to a minimum.",
+		"alpine": "Build out a scalable & robust product with the latest tech stack.",
+		"tailwind": "Train and deploy state-of-the-art AI models to give you the biggest competitive advantage.",
+		"localization": "Ship the most anticipated features to your users at lightning speed.",
+		"light_dark_mode": "Evelate your marketing, sales, and customer support with AI to reach maximum profitability.",
+		"giscus": "Meet with industry experts in your field to get the best advice.",
+		"decapcms": "Get organic traffic from your targed audience to reach optimal growth.",
+		"rss": "Reach your audience with the most optimal ROI at scale.",
+		"articlegenerator": "Transform your production pipeline with the latest robotics technology."
 	},
 	"faq": {
 		"title": "Frequently Asked Questions"
@@ -40,10 +40,10 @@
 		"subtitle": "Get notified for all updates",
 		"input_placeholder": "Enter your email",
 		"button_text": "Subscribe",
-		"privacy": "We care about the protection of your data. Read our",
-		"privacy_link": "Privacy Policy."
+		"privacy": "",
+		"privacy_link": ""
 	},
-	"blog": {
+	"ourwork": {
 		"prev": "Prev",
 		"next": "Next"
 	}
