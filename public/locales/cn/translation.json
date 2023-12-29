@@ -1,16 +1,16 @@
 {
 	"hero": {
-		"title": "深度技术解决方案",
-		"subtitle": "与全球前1%的人才团队合作，打造你的独有创新",
-		"globe_title": "Crea Siti Web Sorprendenti ad Alte Prestazioni con Facilità e Velocità.",
+		"title": "从0到100的深度技术解决方案",
+		"subtitle": "与硅谷顶尖人才团队合作，打造您的独有创新",
+		"globe_title": "受全球企业家信赖：我们将野心转化为利润。",
 		"main_button_text": "预约会议",
 		"secondary_button_text": "获取报价"
 	},
 	"hero_animated": {
-		"secondary_button_text": "Vai a versione base"
+		"secondary_button_text": "获取报价"
 	},
 	"header": {
-		"features": "Funzionalità",
+		"features": "服务",
 		"pricing": "价格",
 		"work": "历史案例",
 		"contact": "联系我们",
