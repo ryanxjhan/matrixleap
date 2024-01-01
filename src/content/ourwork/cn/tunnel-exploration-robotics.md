@@ -5,6 +5,7 @@ author: Matrix Leap
 tags:
     - robotics
     - software
+    - computervision
 image:
     src: /images/tunnel-exploration-robotics.png
     alt: Tunnel Exploration with Advanced Robotics

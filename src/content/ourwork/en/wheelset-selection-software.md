@@ -4,6 +4,8 @@ draft: false
 author: Matrix Leap
 tags:
     - software
+    - transportation
+    - qualityassurance
 image:
     src: /images/wheelset-selection-software.png
     alt: Wheelset Selection with Innovative Software
@@ -16,7 +18,7 @@ Matrix Leap proudly introduces WheelSelect Pro, a cutting-edge solution designed
 
 ## Technical Overview
 
-The core of WheelSelect Pro lies in its robust and user-friendly software, developed using Visual Studio 2022 and C# for the upper machine, and Android Studio and Java for the handheld device. The system employs MySQL 8.0 databases to manage extensive data involved in wheelset selection and storage. Designed to work with Windows 7 and above, as well as Android 7.0 and above, the software ensures wide compatibility and reliability. The hardware setup includes servers for data handling and PDAs for on-the-go operations, emphasizing redundancy and efficiency.
+The core of WheelSelect Pro lies in its robust and user-friendly software, developed using C# for the upper machine, and Android Studio and Java for the handheld device. The system employs MySQL databases to manage extensive data involved in wheelset selection and storage. Designed to work with Windows 7 and above, as well as Android 7.0 and above, the software ensures wide compatibility and reliability. The hardware setup includes servers for data handling and PDAs for on-the-go operations, emphasizing redundancy and efficiency.
 
 ## Client Impact
 

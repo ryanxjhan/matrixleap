@@ -4,6 +4,8 @@ draft: false
 author: Matrix Leap
 tags:
     - software
+    - signalrecognition
+    - automation
 image:
     src: /images/slot-wedge-inspection-automation.png
     alt: Slot Wedge Inspection through Automation

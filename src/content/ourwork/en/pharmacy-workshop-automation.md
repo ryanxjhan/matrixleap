@@ -4,6 +4,8 @@ draft: false
 author: Matrix Leap
 tags:
     - software
+    - healthcare
+    - automation
 image:
     src: /images/pharmacy-workshop-automation.png
     alt: Pharmacy Workshop Automation

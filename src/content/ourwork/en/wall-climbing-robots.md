@@ -5,6 +5,7 @@ author: Matrix Leap
 tags:
     - robotics
     - software
+    - computervision
 image:
     src: /images/wall-climbing-robots.png
     alt: Wall-Climbing Robots
