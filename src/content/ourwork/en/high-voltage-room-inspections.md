@@ -4,7 +4,7 @@ draft: false
 author: Matrix Leap
 tags:
     - software
-    - computer vision
+    - computervision
     - manufacturing
     - automation
 image:
