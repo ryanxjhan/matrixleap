@@ -21,7 +21,7 @@ import { t } from "i18next";
 				class="min-w-0 flex-auto rounded-md border-0 px-3.5 py-2 text-gray-900 dark:text-gray-100 dark:bg-stone-950 shadow-sm ring-1 ring-inset ring-gray-300 dark:placeholder:text-gray-100 placeholder:text-gray-400 focus:ring-2 focus:ring-inset focus:ring-indigo-600 sm:text-sm sm:leading-6"
 				placeholder={t("newsletter.input_placeholder")}
 			/>
-			<Button>{t("newsletter.button_text")}</Button>
+			<Button class="subscribe">{t("newsletter.button_text")}</Button>
 		</div>
 		<p class="mt-4 text-sm leading-6 text-gray-900 dark:text-gray-200">
 			{t("newsletter.privacy")}
@@ -29,3 +29,15 @@ import { t } from "i18next";
 		</p>
 	</form>
 </div>
+
+<script>
+	const buttons = document.querySelectorAll("button.subscribe");
+
+	buttons.forEach((button) => {
+		button.addEventListener("click", (event) => {
+			event.preventDefault();
+			button.innerHTML = "✓ Subscribed";
+			button.disabled = true;
+		});
+	});
+</script>
