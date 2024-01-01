@@ -7,15 +7,15 @@ import Sectionhead from "@components/sectionhead.astro";
 import Button from "@components/ui/button.astro";
 import Contactform from "@components/contactform.astro";
 
-changeLanguage("en");
+changeLanguage("cn");
 
 let contacts = [
 	{
-		title: "Contact Us",
+		title: "与我们沟通",
 		email: "hello@matrixleap.ai",
 	},
 	{
-		title: "Join Us",
+		title: "加入我们",
 		email: "join@matrixleap.ai",
 	},
 ];
@@ -24,8 +24,8 @@ let contacts = [
 <Layout title="Contact">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Get in Touch</Fragment>
-			<Fragment slot="desc">Connect with us.</Fragment>
+			<Fragment slot="title">联系我们</Fragment>
+			<Fragment slot="desc">客道情义深，不问身世亲。</Fragment>
 		</Sectionhead>
 
 		<div class="py-24 sm:py-32">
@@ -33,8 +33,8 @@ let contacts = [
 				<div class="mx-auto max-w-2xl space-y-16 divide-y divide-gray-100 lg:mx-0 lg:max-w-none">
 					<div class="grid grid-cols-1 gap-x-8 gap-y-10 lg:grid-cols-3">
 						<div>
-							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">Reach Out</h2>
-							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">We are here to help.</p>
+							<h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-white">建立连接</h2>
+							<p class="mt-4 leading-7 text-gray-600 dark:text-gray-200">海内存知己， 天涯若比邻。</p>
 						</div>
 						<div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:col-span-2 lg:gap-8">
 							{

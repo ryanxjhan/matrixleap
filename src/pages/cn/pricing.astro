@@ -7,69 +7,55 @@ import Pricing from "@components/pricing.astro";
 import Logos from "@components/logos.astro";
 import Faq from "@components/faq.astro";
 
-changeLanguage("en");
+changeLanguage("cn");
 
 const pricingData = [
 	{
-		name: "Ideation",
-		price: "Free",
+		name: "个人",
+		price: "免费",
 		popular: false,
-		features: ["Free Consultation", "Funding Advices", "Idea Deep Dive"],
+		features: ["免费咨询", "资金建议", "创意深度挖掘"],
 		button: {
-			text: "Get Started",
+			text: "立刻开始",
 		},
 	},
 	{
-		name: "Startup",
+		name: "初创公司",
 		price: {
-			monthly: "Custom",
+			monthly: "定制",
 			annual: "$16",
 			discount: "10%",
 			original: "$24",
 		},
 		popular: true,
-		features: [
-			"Quick Prototyping",
-			"Full Stack Development",
-			"Deep Tech Integration",
-			"Feature Iterations",
-			"Consulting Services",
-			"Growth Automation",
-		],
+		features: ["快速原型设计", "全栈开发", "深度技术集成", "功能迭代", "咨询服务", "增长自动化"],
 		button: {
-			text: "Contact us",
+			text: "联系我们",
 		},
 	},
 	{
-		name: "Enterprise",
-		price: "Custom",
+		name: "企业",
+		price: "定制",
 		popular: false,
-		features: [
-			"All Services in Startup",
-			"Deep Tech Adoption",
-			"SEO Optimization",
-			"Paid Advertising",
-			"Robotics Automation",
-			"Customized Solutions",
-		],
+		features: ["包含创业中的所有服务", "深度技术采用", "搜索引擎优化", "付费广告", "机器人自动化", "定制解决方案"],
 		button: {
-			text: "Contact us",
+			text: "联系我们",
 		},
 	},
 ];
 ---
 
-<Layout title="Pricing">
+<Layout title="价格">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Pricing</Fragment>
-			<Fragment slot="desc">Secure the best rates with our price match guarantee for up to three months.</Fragment>
+			<Fragment slot="title">价格</Fragment>
+			<Fragment slot="desc">诚心如泉水， 长情伴客身。</Fragment>
 		</Sectionhead>
 
 		<div class="grid md:grid-cols-3 gap-10 mx-auto max-w-4xl mt-20">
 			{pricingData.map((item) => <Pricing plan={item} />)}
 		</div>
-		<!-- <Logos /> -->
-		<!-- <Faq /> -->
+		{/* <Logos /> */}
+		{/* <Faq /> */}
 	</Container>
 </Layout>
