@@ -5,7 +5,7 @@ author: Matrix Leap
 tags:
     - software
 image:
-    src: /images/tunnel-exploration-robotics.png
+    src: /images/wheelset-selection-software.png
     alt: Wheelset Selection with Innovative Software
 snippet: Matrix Leap proudly introduces WheelSelect Pro, a cutting-edge solution designed to revolutionize the wheelset selection process in railway maintenance. This project involves the development of upper computer software and a companion handheld application, aiming to enhance efficiency, accuracy, and convenience in wheelset management. WheelSelect Pro is a testament to our commitment to driving innovation in the transportation sector.
 publishDate: 2023-04-08 11:39
