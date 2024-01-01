@@ -9,7 +9,7 @@ import { Icon } from "astro-icon";
 	<label for="theme-selector" class="sr-only">Choose a theme</label>
 	<select
 		x-data="{
-				theme: localStorage.theme || 'system',
+				theme: localStorage.theme || 'dark',
 				updateDocumentClassTheme: function() {
 					if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
 						document.documentElement.classList.add('dark');
