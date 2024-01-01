@@ -18,33 +18,33 @@
 		"secondary_button_text": "Login"
 	},
 	"features": {
-		"learn_more": "Scopri di più",
-		"title": "Funzionalità",
-		"subtitle": "Tutti glil strumenti di cui hai bisogno",
-		"description": "Astro è un generatore di siti statici ad alte prestazioni che si integra perfettamente con Tailwind CSS e Alpine.js. Ti permette di costruire siti web con facilità e velocità, senza sacrificare le prestazioni.",
-		"astro": "Astro è il framework web all-in-one progettato per la velocità. Preleva i tuoi contenuti da qualsiasi luogo e distribuiscili ovunque, il tutto alimentato dai tuoi componenti UI e librerie preferiti.",
-		"alpine": "Alpine è uno strumento robusto e minimale per comporre comportamenti direttamente nel tuo markup. Pensalo come jQuery per il web moderno. Inserisci un tag script e inizia.",
-		"tailwind": "Un framework CSS basato su utility pieno di classi che possono essere composte per costruire qualsiasi design, direttamente nel tuo markup.",
-		"localization": "Un'integrazione di i18next con Astro + alcuni componenti utilità per aiutarti a tradurre i tuoi siti web Astro!",
-		"light_dark_mode": "Modalità Dark basata sulle classi di Tailwind.",
-		"giscus": "Un sistema di commenti alimentato da GitHub Discussions. Lascia che i visitatori lascino commenti e reazioni sul tuo sito web tramite GitHub!",
-		"decapcms": "Gestione dei contenuti open source per il tuo flusso di lavoro Git",
-		"rss": "RSS feed generato da @astrojs/rss",
-		"articlegenerator": "Usa l'inteligenza artificiale per generare gli articoli del tuo ourwork"
+		"learn_more": "了解更多",
+		"title": "服务",
+		"subtitle": "从0到100，您所需的一切",
+		"description": "Matrix Leap提供全方位服务，帮助您构建下一个大项目。我们是顶尖1%的人才军团，拥有建立成功产品的良好记录。我们是您产品开发需求的一站式商店。",
+		"astro": "在几周内让您的MVP准备就绪，将上市时间减至最少。",
+		"alpine": "使用最新技术堆栈构建可扩展且稳健的产品。",
+		"tailwind": "培训并部署最先进的AI模型，为您带来最大的竞争优势。",
+		"localization": "以闪电速度向用户推出最受期待的功能。",
+		"light_dark_mode": "利用AI提升您的营销、销售和客户支持，以达到最大盈利能力。",
+		"giscus": "会见您领域内的行业专家，获取最佳建议。",
+		"decapcms": "从您的目标受众中获取有机流量，以实现最佳增长。",
+		"rss": "以最优的投资回报率扩大您的观众群。",
+		"articlegenerator": "利用最新的机器人技术改造您的生产流程。"
 	},
 	"faq": {
 		"title": "Domande frequenti"
 	},
 	"newsletter": {
-		"title": "Sottoscriviti alla nostra newsletter",
-		"subtitle": "Ricevi le notifiche per gli ultimi aggiornamenti e novità.",
-		"input_placeholder": "Inserisci la tua email",
-		"button_text": "Sottoscriviti",
-		"privacy": "Ci importa della tua privacy. Leggi la nostra",
-		"privacy_link": "Privacy Policy."
+		"title": "订阅我们的新闻通讯",
+		"subtitle": "获取所有更新的通知",
+		"input_placeholder": "输入您的电子邮件",
+		"button_text": "订阅",
+		"privacy": "",
+		"privacy_link": ""
 	},
 	"ourwork": {
-		"prev": "Precedente",
-		"next": "Successiva"
+		"prev": "上一页",
+		"next": "下一页"
 	}
 }

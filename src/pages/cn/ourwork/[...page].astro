@@ -9,33 +9,34 @@ import Pagination from "@components/ourwork/pagination.astro";
 
 changeLanguage("cn");
 
-export async function getStaticPaths({ paginate }) {changeLanguage('cn')
-    var posts = await getCollection("ourwork", ({ data }) => {
-        return !data.draft;
-    });
-    // Preprocess the posts to split the slugs and get the languages
-    var processedPosts = posts.map((post) => {
-        const [...slug] = post.slug.split("/");
-        let lang = i18next.language;
-        var firstSlug = post.slug.match(/^([^\/]*)\//);
-        if (firstSlug) {
-            lang = firstSlug[1];
-        }
-        return {
-            ...post,
-            slug: slug.join("/"),
-            lang: lang,
-        };
-    });
-    // Filter posts based on the current language
-    const localizedPosts = processedPosts.filter((post) => post.lang === i18next.language);
-    localizedPosts.sort(function (a, b) {
-        return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
-    });
-    return paginate(localizedPosts, {
-        params: { ourwork: "ourwork" || undefined },
-        pageSize: 4,
-    });
+export async function getStaticPaths({ paginate }) {
+	changeLanguage("cn");
+	var posts = await getCollection("ourwork", ({ data }) => {
+		return !data.draft;
+	});
+	// Preprocess the posts to split the slugs and get the languages
+	var processedPosts = posts.map((post) => {
+		const [...slug] = post.slug.split("/");
+		let lang = i18next.language;
+		var firstSlug = post.slug.match(/^([^\/]*)\//);
+		if (firstSlug) {
+			lang = firstSlug[1];
+		}
+		return {
+			...post,
+			slug: slug.join("/"),
+			lang: lang,
+		};
+	});
+	// Filter posts based on the current language
+	const localizedPosts = processedPosts.filter((post) => post.lang === i18next.language);
+	localizedPosts.sort(function (a, b) {
+		return b.data.publishDate.valueOf() - a.data.publishDate.valueOf();
+	});
+	return paginate(localizedPosts, {
+		params: { ourwork: "ourwork" || undefined },
+		pageSize: 4,
+	});
 }
 const { page } = Astro.props;
 ---
@@ -43,7 +44,7 @@ const { page } = Astro.props;
 <Layout title="Our Work">
 	<Container>
 		<Sectionhead>
-			<Fragment slot="title">Our Work</Fragment>
+			<Fragment slot="title">历史案例</Fragment>
 			<Fragment slot="desc">查看我们过去的部分项目</Fragment>
 		</Sectionhead>
 		<Posts posts={page.data} />
