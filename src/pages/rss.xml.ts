@@ -13,7 +13,7 @@ export const get = async () => {
 
 	return rss({
 		title: `Matrix Leap`,
-		description: "Matrix Leap - Accelerated Deep Tech Solutions on Autopilot",
+		description: "Matrix Leap - AI Centric Venture Studio",
 		site: import.meta.env.SITE,
 
 		items: posts.map((post) => ({

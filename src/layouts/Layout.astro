@@ -22,7 +22,7 @@ const buildDate = __DATE__;
 
 const { title, lang = null } = Astro.props;
 
-const makeTitle = title ? title + " | " + "Matrix Leap" : "Matrix Leap - Accelerated Deep Tech Solutions on Autopilot";
+const makeTitle = title ? title + " | " + "Matrix Leap" : "Matrix Leap - AI Centric Venture Studio";
 ---
 
 <!doctype html>
@@ -43,13 +43,13 @@ const makeTitle = title ? title + " | " + "Matrix Leap" : "Matrix Leap - Acceler
 
 		<SEO
 			title={makeTitle}
-			description="Matrix Leap is a deep tech accelerator that helps companies build and scale their products and services."
+			description="Matrix Leap is a AI-centric venture studio, accelerating AI startups to market."
 			canonical={canonicalURL}
 			openGraph={{
 				basic: {
 					url: canonicalURL,
 					type: "website",
-					title: `Matrix Leap - Accelerated Deep Tech Solutions on Autopilot`,
+					title: `Matrix Leap - AI Centric Venture Studio`,
 					image: resolvedImageWithDomain,
 				},
 				image: {

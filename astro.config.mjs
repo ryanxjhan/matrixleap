@@ -28,7 +28,7 @@ export default defineConfig({
 			includeAssets: ["favicon.svg"],
 			registerType: "autoUpdate",
 			manifest: {
-				name: "Matrix Leap - Accelerated Deep Tech Solutions on Autopilot",
+				name: "Matrix Leap - AI Centric Venture Studio",
 				short_name: "Matrix Leap",
 				theme_color: "#ffffff",
 				icons: [
