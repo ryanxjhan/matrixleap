@@ -33,7 +33,7 @@ const globeMaxSize = 1000;
 			dark: 0,
 			diffuse: 1.2,
 			scale: 1,
-			mapSamples: 16000,
+			mapSamples: 12000,
 			mapBrightness: 10,
 			baseColor: [1, 1, 1],
 			markerColor: [1, 0.84, 0.5],
@@ -42,11 +42,8 @@ const globeMaxSize = 1000;
 			opacity: 0.9,
 			markers: [
 				{ location: [39.9042, 116.4074], size: 0.05 }, // Beijing
-				{ location: [31.2304, 121.4737], size: 0.05 }, // Shanghai
 				{ location: [37.7749, -122.4194], size: 0.05 }, // San Francisco
-				{ location: [51.5074, -0.1278], size: 0.05 }, // London, UK
 				{ location: [43.6532, -79.3832], size: 0.05 }, // Toronto
-				{ location: [41.8057, 123.4315], size: 0.05 }, // Shenyang
 			],
 			onRender: (state) => {
 				// Called on every animation frame.
